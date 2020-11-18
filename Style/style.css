@@ -1,0 +1,40 @@
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+input, select{
+    width: 300px;
+}
+input[type="text"]{
+    border: none;
+    border-bottom: 1px solid grey;
+    padding: 7px;
+    color: #4d4d4d;
+}
+select{
+    padding: 7px;
+    color: #4d4d4d;
+}
+input[type="submit"]{
+    border: none;
+    padding: 7px;
+    color: white;
+    background-color: #2c588a;
+    border-radius: 0;
+    box-shadow: 3px 3px 5px #80808067;
+}
+
+form input{
+    margin : 1rem;
+}
+
+#res{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: bold;
+    font-variant: small-caps;
+}
